@@ -8,3 +8,6 @@ def info1(request):
 
 def info2(request):
     return render(request, 'main/info2.html')
+
+def index(request):
+    return render(request, 'main/index.html')
